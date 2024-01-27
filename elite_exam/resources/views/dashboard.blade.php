@@ -15,12 +15,12 @@
     @include('layouts.navigation')
     <div class="container">
         <div class="card mt-4 row justify-content-end">
-            <button class="btn btn-primary" id="artistDetail">View Artist Details</button>
-            <button class="btn btn-primary" id="albumDetails">View Album Details</button>
             <button class="btn btn-primary" id="totalAlbumButton">Display total number of albums sold per artist</button>
             <button class="btn btn-primary" id="totalSalesButton">Display combined album sales per artist</button>
             <button class="btn btn-primary" id="topOneButton">Display the top 1 artist who sold most combined album sales</button>
             <button class="btn btn-primary" id="searchedTableButton">Display list of albums based on the searched artist</button>
+            <button class="btn btn-primary" id="artistDetail">View Artist Details</button>
+            <button class="btn btn-primary" id="albumDetails">View Album Details</button>
             <div class="row">
                 <input type="text" name="editCode" id="editCode" class="form-control my-2 d-none">
                 <input type="text" name="editName" id="editName" class="form-control my-2 d-none">
